@@ -164,6 +164,10 @@ PRODUCT_PACKAGES += \
     wget \
     zip
 
+# Masquerade
+PRODUCT_PACKAGES += \
+   masquerade
+
 # Custom off-mode charger
 ifneq ($(WITH_CM_CHARGER),false)
 PRODUCT_PACKAGES += \
